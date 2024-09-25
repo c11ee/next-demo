@@ -5,8 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start -p 3002",
+    "lint": "next lint",
+    "bs": "yarn build && yarn start"
   },
   "dependencies": {
     "react": "^18",
