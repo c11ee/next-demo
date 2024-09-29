@@ -47,6 +47,7 @@ const Index = ({
   const l = data;
   return (
     <div>
+      ccc
       <Image
         src="/static/image/aboutus.png"
         width={720}
